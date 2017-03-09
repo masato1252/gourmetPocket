@@ -8,16 +8,56 @@
 
 import UIKit
 
+import FacebookCore
+import FacebookLogin
+
+import Fabric
+import TwitterKit
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
+//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+//        // Override point for customization after application launch.
+//        return true
+//    }
+//    
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        
+        Fabric.with([Twitter.self])
+        
+        return SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
+    
+//    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+//        let result = SDKApplicationDelegate.shared.application(application, open: url as URL!, sourceApplication: sourceApplication, annotation: annotation)
+//        
+//        //上記以降AccessTokenが使えます
+//        if let accessToken = AccessToken.current {
+//            debugPrint(accessToken)
+//        }
+//        return result
+//    }
+    
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        return SDKApplicationDelegate.shared.application(app, open: url, options: options)
+        
+    }
+    
+//    // MARK: - Facebook Login
+//    func isLoggedInWithFacebook() -> Bool {
+//        let loggedIn = AccessToken.current != nil
+//        return loggedIn
+//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -7,12 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214FC6D66EBEE0296C9A72F7 /* Pods_placeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A6F3FDD574810C3E09C696 /* Pods_placeBook.framework */; };
+		690596541E71BD1600A3E4B7 /* ShareEXMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690596531E71BD1600A3E4B7 /* ShareEXMainViewController.swift */; };
+		690596561E71D0CB00A3E4B7 /* ShareEXPostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690596551E71D0CB00A3E4B7 /* ShareEXPostData.swift */; };
+		690596581E720B6700A3E4B7 /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690596571E720B6700A3E4B7 /* PlaceData.swift */; };
+		69574C9F1E6F0F5D00B4DD17 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574C9E1E6F0F5D00B4DD17 /* MainViewController.swift */; };
+		69574CA11E6F112600B4DD17 /* PlaceCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CA01E6F112600B4DD17 /* PlaceCustomCell.swift */; };
+		69574CA31E6F132000B4DD17 /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CA21E6F132000B4DD17 /* PlaceListViewController.swift */; };
+		69574CA51E6F17E700B4DD17 /* PlaceListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CA41E6F17E600B4DD17 /* PlaceListData.swift */; };
+		69574CA71E6F19A400B4DD17 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 69574CA61E6F19A400B4DD17 /* noimage.png */; };
+		69574CA91E6F222D00B4DD17 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 69574CA81E6F222D00B4DD17 /* book.png */; };
+		69574CAB1E6F229900B4DD17 /* BookCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CAA1E6F229900B4DD17 /* BookCustomCell.swift */; };
+		69574CAE1E6F23DA00B4DD17 /* BookListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CAD1E6F23D900B4DD17 /* BookListData.swift */; };
+		69574CB01E6F252000B4DD17 /* MyBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CAF1E6F252000B4DD17 /* MyBookListViewController.swift */; };
+		69574CB21E6F2E9A00B4DD17 /* SharedBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CB11E6F2E9A00B4DD17 /* SharedBookListViewController.swift */; };
+		69574CB41E6F325A00B4DD17 /* DetailBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CB31E6F325A00B4DD17 /* DetailBookViewController.swift */; };
+		69574CB61E6F392600B4DD17 /* DetailPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69574CB51E6F392600B4DD17 /* DetailPlaceViewController.swift */; };
 		698436AA1E6DA51200579E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436A91E6DA51200579E97 /* AppDelegate.swift */; };
 		698436AC1E6DA51200579E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436AB1E6DA51200579E97 /* ViewController.swift */; };
 		698436AF1E6DA51200579E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698436AD1E6DA51200579E97 /* Main.storyboard */; };
 		698436B11E6DA51200579E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698436B01E6DA51200579E97 /* Assets.xcassets */; };
 		698436B41E6DA51200579E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698436B21E6DA51200579E97 /* LaunchScreen.storyboard */; };
 		698436BF1E6DA51200579E97 /* placeBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436BE1E6DA51200579E97 /* placeBookUITests.swift */; };
+		698436CA1E6DAB1700579E97 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436C91E6DAB1700579E97 /* Config.swift */; };
+		698436D01E6DB80300579E97 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698436CC1E6DB80300579E97 /* Fabric.framework */; };
+		698436D11E6DB80300579E97 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698436CD1E6DB80300579E97 /* TwitterKit.framework */; };
+		698436D21E6DB80300579E97 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 698436CE1E6DB80300579E97 /* TwitterKitResources.bundle */; };
+		698436D31E6DB80300579E97 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698436CF1E6DB80300579E97 /* TwitterCore.framework */; };
+		698436D51E6DBC1100579E97 /* APIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436D41E6DBC1100579E97 /* APIConnector.swift */; };
+		698436D71E6DBC8E00579E97 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436D61E6DBC8E00579E97 /* UserData.swift */; };
+		698436E11E6DDC7000579E97 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698436E01E6DDC7000579E97 /* ShareViewController.swift */; };
+		698436E41E6DDC7000579E97 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698436E21E6DDC7000579E97 /* MainInterface.storyboard */; };
+		698436E81E6DDC7000579E97 /* parsePlace.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 698436DE1E6DDC7000579E97 /* parsePlace.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		69B7AC5A1E71819A00D1CFB0 /* ShareEXBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7AC591E71819A00D1CFB0 /* ShareEXBookListViewController.swift */; };
+		69B7AC5C1E7189F600D1CFB0 /* ShareEXAPIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7AC5B1E7189F600D1CFB0 /* ShareEXAPIConnector.swift */; };
+		69B7AC5E1E718A5C00D1CFB0 /* ShareEXBookListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B7AC5D1E718A5C00D1CFB0 /* ShareEXBookListData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +52,46 @@
 			remoteGlobalIDString = 698436A51E6DA51100579E97;
 			remoteInfo = placeBook;
 		};
+		698436E61E6DDC7000579E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6984369E1E6DA51100579E97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 698436DD1E6DDC7000579E97;
+			remoteInfo = parsePlace;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		698436EC1E6DDC7000579E97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				698436E81E6DDC7000579E97 /* parsePlace.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0F1CF40F7A1B73391322148F /* Pods-placeBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-placeBook/Pods-placeBook.debug.xcconfig"; sourceTree = "<group>"; };
+		690596531E71BD1600A3E4B7 /* ShareEXMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareEXMainViewController.swift; sourceTree = "<group>"; };
+		690596551E71D0CB00A3E4B7 /* ShareEXPostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareEXPostData.swift; sourceTree = "<group>"; };
+		690596571E720B6700A3E4B7 /* PlaceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
+		69574C9E1E6F0F5D00B4DD17 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		69574CA01E6F112600B4DD17 /* PlaceCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCustomCell.swift; sourceTree = "<group>"; };
+		69574CA21E6F132000B4DD17 /* PlaceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
+		69574CA41E6F17E600B4DD17 /* PlaceListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceListData.swift; sourceTree = "<group>"; };
+		69574CA61E6F19A400B4DD17 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		69574CA81E6F222D00B4DD17 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		69574CAA1E6F229900B4DD17 /* BookCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCustomCell.swift; sourceTree = "<group>"; };
+		69574CAD1E6F23D900B4DD17 /* BookListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListData.swift; sourceTree = "<group>"; };
+		69574CAF1E6F252000B4DD17 /* MyBookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBookListViewController.swift; sourceTree = "<group>"; };
+		69574CB11E6F2E9A00B4DD17 /* SharedBookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedBookListViewController.swift; sourceTree = "<group>"; };
+		69574CB31E6F325A00B4DD17 /* DetailBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBookViewController.swift; sourceTree = "<group>"; };
+		69574CB51E6F392600B4DD17 /* DetailPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPlaceViewController.swift; sourceTree = "<group>"; };
 		698436A61E6DA51100579E97 /* placeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = placeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698436A91E6DA51200579E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698436AB1E6DA51200579E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +102,24 @@
 		698436BA1E6DA51200579E97 /* placeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = placeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		698436BE1E6DA51200579E97 /* placeBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeBookUITests.swift; sourceTree = "<group>"; };
 		698436C01E6DA51200579E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698436C91E6DAB1700579E97 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		698436CC1E6DB80300579E97 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		698436CD1E6DB80300579E97 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		698436CE1E6DB80300579E97 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		698436CF1E6DB80300579E97 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		698436D41E6DBC1100579E97 /* APIConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConnector.swift; sourceTree = "<group>"; };
+		698436D61E6DBC8E00579E97 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		698436DE1E6DDC7000579E97 /* parsePlace.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = parsePlace.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		698436E01E6DDC7000579E97 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		698436E31E6DDC7000579E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		698436E51E6DDC7000579E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698436ED1E6DDEF800579E97 /* placeBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = placeBook.entitlements; sourceTree = "<group>"; };
+		698436EE1E6DDF4300579E97 /* parsePlace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = parsePlace.entitlements; sourceTree = "<group>"; };
+		69B7AC591E71819A00D1CFB0 /* ShareEXBookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareEXBookListViewController.swift; sourceTree = "<group>"; };
+		69B7AC5B1E7189F600D1CFB0 /* ShareEXAPIConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareEXAPIConnector.swift; sourceTree = "<group>"; };
+		69B7AC5D1E718A5C00D1CFB0 /* ShareEXBookListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareEXBookListData.swift; sourceTree = "<group>"; };
+		78A6F3FDD574810C3E09C696 /* Pods_placeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_placeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAC64811C0751E48E25E0EC /* Pods-placeBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-placeBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-placeBook/Pods-placeBook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +127,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214FC6D66EBEE0296C9A72F7 /* Pods_placeBook.framework in Frameworks */,
+				698436D31E6DB80300579E97 /* TwitterCore.framework in Frameworks */,
+				698436D01E6DB80300579E97 /* Fabric.framework in Frameworks */,
+				698436D11E6DB80300579E97 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,15 +141,86 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		698436DB1E6DDC7000579E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08D481AD24557F7E33F1A285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A6F3FDD574810C3E09C696 /* Pods_placeBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69574CAC1E6F23AB00B4DD17 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				698436D61E6DBC8E00579E97 /* UserData.swift */,
+				69574CA41E6F17E600B4DD17 /* PlaceListData.swift */,
+				69574CAD1E6F23D900B4DD17 /* BookListData.swift */,
+				690596571E720B6700A3E4B7 /* PlaceData.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		69574CB71E6F41C900B4DD17 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				69574CA01E6F112600B4DD17 /* PlaceCustomCell.swift */,
+				69574CAA1E6F229900B4DD17 /* BookCustomCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		69574CB81E6F41EB00B4DD17 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				698436AB1E6DA51200579E97 /* ViewController.swift */,
+				69574C9E1E6F0F5D00B4DD17 /* MainViewController.swift */,
+				69574CA21E6F132000B4DD17 /* PlaceListViewController.swift */,
+				69574CAF1E6F252000B4DD17 /* MyBookListViewController.swift */,
+				69574CB11E6F2E9A00B4DD17 /* SharedBookListViewController.swift */,
+				69574CB31E6F325A00B4DD17 /* DetailBookViewController.swift */,
+				69574CB51E6F392600B4DD17 /* DetailPlaceViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		69574CB91E6F422600B4DD17 /* CoreClass */ = {
+			isa = PBXGroup;
+			children = (
+				698436A91E6DA51200579E97 /* AppDelegate.swift */,
+				698436C91E6DAB1700579E97 /* Config.swift */,
+				698436D41E6DBC1100579E97 /* APIConnector.swift */,
+			);
+			name = CoreClass;
+			sourceTree = "<group>";
+		};
+		69574CBA1E6F424F00B4DD17 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				69574CA61E6F19A400B4DD17 /* noimage.png */,
+				69574CA81E6F222D00B4DD17 /* book.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		6984369D1E6DA51100579E97 = {
 			isa = PBXGroup;
 			children = (
 				698436A81E6DA51100579E97 /* placeBook */,
 				698436BD1E6DA51200579E97 /* placeBookUITests */,
+				698436DF1E6DDC7000579E97 /* parsePlace */,
 				698436A71E6DA51100579E97 /* Products */,
+				F4E975E11665BBCF2C8849D8 /* Pods */,
+				08D481AD24557F7E33F1A285 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +229,7 @@
 			children = (
 				698436A61E6DA51100579E97 /* placeBook.app */,
 				698436BA1E6DA51200579E97 /* placeBookUITests.xctest */,
+				698436DE1E6DDC7000579E97 /* parsePlace.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +237,20 @@
 		698436A81E6DA51100579E97 /* placeBook */ = {
 			isa = PBXGroup;
 			children = (
-				698436A91E6DA51200579E97 /* AppDelegate.swift */,
-				698436AB1E6DA51200579E97 /* ViewController.swift */,
+				69574CB91E6F422600B4DD17 /* CoreClass */,
+				69574CB81E6F41EB00B4DD17 /* ViewController */,
+				69574CB71E6F41C900B4DD17 /* CustomCell */,
+				69574CAC1E6F23AB00B4DD17 /* DataModel */,
+				69574CBA1E6F424F00B4DD17 /* Image */,
+				698436ED1E6DDEF800579E97 /* placeBook.entitlements */,
 				698436AD1E6DA51200579E97 /* Main.storyboard */,
 				698436B01E6DA51200579E97 /* Assets.xcassets */,
 				698436B21E6DA51200579E97 /* LaunchScreen.storyboard */,
 				698436B51E6DA51200579E97 /* Info.plist */,
+				698436CC1E6DB80300579E97 /* Fabric.framework */,
+				698436CD1E6DB80300579E97 /* TwitterKit.framework */,
+				698436CE1E6DB80300579E97 /* TwitterKitResources.bundle */,
+				698436CF1E6DB80300579E97 /* TwitterCore.framework */,
 			);
 			path = placeBook;
 			sourceTree = "<group>";
@@ -96,6 +264,31 @@
 			path = placeBookUITests;
 			sourceTree = "<group>";
 		};
+		698436DF1E6DDC7000579E97 /* parsePlace */ = {
+			isa = PBXGroup;
+			children = (
+				698436EE1E6DDF4300579E97 /* parsePlace.entitlements */,
+				698436E01E6DDC7000579E97 /* ShareViewController.swift */,
+				69B7AC591E71819A00D1CFB0 /* ShareEXBookListViewController.swift */,
+				698436E21E6DDC7000579E97 /* MainInterface.storyboard */,
+				698436E51E6DDC7000579E97 /* Info.plist */,
+				69B7AC5B1E7189F600D1CFB0 /* ShareEXAPIConnector.swift */,
+				69B7AC5D1E718A5C00D1CFB0 /* ShareEXBookListData.swift */,
+				690596531E71BD1600A3E4B7 /* ShareEXMainViewController.swift */,
+				690596551E71D0CB00A3E4B7 /* ShareEXPostData.swift */,
+			);
+			path = parsePlace;
+			sourceTree = "<group>";
+		};
+		F4E975E11665BBCF2C8849D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1CF40F7A1B73391322148F /* Pods-placeBook.debug.xcconfig */,
+				EBAC64811C0751E48E25E0EC /* Pods-placeBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,13 +296,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 698436C31E6DA51200579E97 /* Build configuration list for PBXNativeTarget "placeBook" */;
 			buildPhases = (
+				73631CF84AC0ADEF8F451F1A /* [CP] Check Pods Manifest.lock */,
 				698436A21E6DA51100579E97 /* Sources */,
 				698436A31E6DA51100579E97 /* Frameworks */,
 				698436A41E6DA51100579E97 /* Resources */,
+				5E5E2E14D05233F1CE62D83E /* [CP] Embed Pods Frameworks */,
+				8E607C6ED6069099716E5050 /* [CP] Copy Pods Resources */,
+				698436CB1E6DB7C400579E97 /* ShellScript */,
+				698436EC1E6DDC7000579E97 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				698436E71E6DDC7000579E97 /* PBXTargetDependency */,
 			);
 			name = placeBook;
 			productName = placeBook;
@@ -134,6 +333,23 @@
 			productReference = 698436BA1E6DA51200579E97 /* placeBookUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		698436DD1E6DDC7000579E97 /* parsePlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 698436EB1E6DDC7000579E97 /* Build configuration list for PBXNativeTarget "parsePlace" */;
+			buildPhases = (
+				698436DA1E6DDC7000579E97 /* Sources */,
+				698436DB1E6DDC7000579E97 /* Frameworks */,
+				698436DC1E6DDC7000579E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parsePlace;
+			productName = parsePlace;
+			productReference = 698436DE1E6DDC7000579E97 /* parsePlace.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,12 +364,27 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6FV8F6LMG2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					698436B91E6DA51200579E97 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6FV8F6LMG2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 698436A51E6DA51100579E97;
+					};
+					698436DD1E6DDC7000579E97 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6FV8F6LMG2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -172,6 +403,7 @@
 			targets = (
 				698436A51E6DA51100579E97 /* placeBook */,
 				698436B91E6DA51200579E97 /* placeBookUITests */,
+				698436DD1E6DDC7000579E97 /* parsePlace */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +413,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69574CA71E6F19A400B4DD17 /* noimage.png in Resources */,
+				698436D21E6DB80300579E97 /* TwitterKitResources.bundle in Resources */,
+				69574CA91E6F222D00B4DD17 /* book.png in Resources */,
 				698436B41E6DA51200579E97 /* LaunchScreen.storyboard in Resources */,
 				698436B11E6DA51200579E97 /* Assets.xcassets in Resources */,
 				698436AF1E6DA51200579E97 /* Main.storyboard in Resources */,
@@ -194,15 +429,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		698436DC1E6DDC7000579E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698436E41E6DDC7000579E97 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E5E2E14D05233F1CE62D83E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-placeBook/Pods-placeBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		698436CB1E6DB7C400579E97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 7687366c501758fcc5c0347789f196ca49f8c919 e73bee520808baa6f89acd47d8e7d5485aa8664c326faa27bf20509c3c68957f";
+		};
+		73631CF84AC0ADEF8F451F1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E607C6ED6069099716E5050 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-placeBook/Pods-placeBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		698436A21E6DA51100579E97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69574CAE1E6F23DA00B4DD17 /* BookListData.swift in Sources */,
+				69574CB01E6F252000B4DD17 /* MyBookListViewController.swift in Sources */,
+				69574CA31E6F132000B4DD17 /* PlaceListViewController.swift in Sources */,
 				698436AC1E6DA51200579E97 /* ViewController.swift in Sources */,
+				69574CB21E6F2E9A00B4DD17 /* SharedBookListViewController.swift in Sources */,
 				698436AA1E6DA51200579E97 /* AppDelegate.swift in Sources */,
+				69574CAB1E6F229900B4DD17 /* BookCustomCell.swift in Sources */,
+				698436D51E6DBC1100579E97 /* APIConnector.swift in Sources */,
+				69574C9F1E6F0F5D00B4DD17 /* MainViewController.swift in Sources */,
+				690596581E720B6700A3E4B7 /* PlaceData.swift in Sources */,
+				69574CA51E6F17E700B4DD17 /* PlaceListData.swift in Sources */,
+				698436D71E6DBC8E00579E97 /* UserData.swift in Sources */,
+				69574CA11E6F112600B4DD17 /* PlaceCustomCell.swift in Sources */,
+				69574CB41E6F325A00B4DD17 /* DetailBookViewController.swift in Sources */,
+				698436CA1E6DAB1700579E97 /* Config.swift in Sources */,
+				69574CB61E6F392600B4DD17 /* DetailPlaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +532,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		698436DA1E6DDC7000579E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B7AC5A1E71819A00D1CFB0 /* ShareEXBookListViewController.swift in Sources */,
+				69B7AC5E1E718A5C00D1CFB0 /* ShareEXBookListData.swift in Sources */,
+				698436E11E6DDC7000579E97 /* ShareViewController.swift in Sources */,
+				690596541E71BD1600A3E4B7 /* ShareEXMainViewController.swift in Sources */,
+				690596561E71D0CB00A3E4B7 /* ShareEXPostData.swift in Sources */,
+				69B7AC5C1E7189F600D1CFB0 /* ShareEXAPIConnector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -221,6 +552,11 @@
 			isa = PBXTargetDependency;
 			target = 698436A51E6DA51100579E97 /* placeBook */;
 			targetProxy = 698436BB1E6DA51200579E97 /* PBXContainerItemProxy */;
+		};
+		698436E71E6DDC7000579E97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 698436DD1E6DDC7000579E97 /* parsePlace */;
+			targetProxy = 698436E61E6DDC7000579E97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -239,6 +575,14 @@
 				698436B31E6DA51200579E97 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		698436E21E6DDC7000579E97 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				698436E31E6DDC7000579E97 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,10 +681,18 @@
 		};
 		698436C41E6DA51200579E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1CF40F7A1B73391322148F /* Pods-placeBook.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = placeBook/placeBook.entitlements;
 				DEVELOPMENT_TEAM = 6FV8F6LMG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/placeBook",
+				);
 				INFOPLIST_FILE = placeBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.vex.placeBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,10 +702,18 @@
 		};
 		698436C51E6DA51200579E97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBAC64811C0751E48E25E0EC /* Pods-placeBook.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = placeBook/placeBook.entitlements;
 				DEVELOPMENT_TEAM = 6FV8F6LMG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/placeBook",
+				);
 				INFOPLIST_FILE = placeBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.vex.placeBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,6 +749,34 @@
 			};
 			name = Release;
 		};
+		698436E91E6DDC7000579E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = parsePlace/parsePlace.entitlements;
+				DEVELOPMENT_TEAM = 6FV8F6LMG2;
+				INFOPLIST_FILE = parsePlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.vex.placeBook.parsePlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		698436EA1E6DDC7000579E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = parsePlace/parsePlace.entitlements;
+				DEVELOPMENT_TEAM = 6FV8F6LMG2;
+				INFOPLIST_FILE = parsePlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.vex.placeBook.parsePlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -408,6 +796,7 @@
 				698436C51E6DA51200579E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		698436C61E6DA51200579E97 /* Build configuration list for PBXNativeTarget "placeBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +805,16 @@
 				698436C81E6DA51200579E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		698436EB1E6DDC7000579E97 /* Build configuration list for PBXNativeTarget "parsePlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698436E91E6DDC7000579E97 /* Debug */,
+				698436EA1E6DDC7000579E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
